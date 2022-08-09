@@ -1,1 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
 
+body {
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+/* CSS */
+.button-router {
+    align-items: center;
+    background-color: rgba(240, 240, 240, 0.26);
+    border: 1px solid #dfdfdf;
+    border-radius: 16px;
+    font-family: 'Mouse Memoirs', sans-serif !important ;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 28px;
+    max-width: 100%;
+    padding: 14px 22px;
+    text-decoration: none;
+    transition: all 0.2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+}
+.button-router:hover {
+    background-color: #ffffff;
+    border-color: rgba(0, 0, 0, 0.19);
+}
+
+.generation-first-line,
+.generation-second-line {
+    padding: 20px;
+}
+
+.generation-third-line input,
+.input-create,
+.update-button,
+.input-name,
+.input-name-update {
+    margin: 5px;
+    background-color: rgba(240, 240, 240, 0.26);
+    font-family: 'Mouse Memoirs', sans-serif !important ;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 28px;
+    padding: 4px 22px;
+    cursor: pointer;
+}
+
+.footer-link {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.next:hover,
+.prev:hover,
+.input-create:hover,
+.update-button:hover,
+.generation-third-line input:hover,
+.car-select:hover,
+.car-remove:hover,
+.car-run:hover,
+.car-stop:hover {
+    background-color: snow;
+}
+
+.button-router:hover {
+    color: red;
+}

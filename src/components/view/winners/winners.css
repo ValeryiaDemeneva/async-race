@@ -1,0 +1,31 @@
+.selected-sort {
+    color: red;
+}
+
+tr,
+td {
+    border: 1px solid black;
+}
+
+.table-td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.pages-section-winners {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.pages-section-winners div {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#thPointer {
+    cursor: pointer;
+}

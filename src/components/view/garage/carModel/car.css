@@ -1,0 +1,92 @@
+.car-image-svg {
+    width: 100px;
+    height: 50px;
+}
+
+.car-root {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px dashed black;
+}
+.car-container-controllers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.car-container-controllers div {
+    margin: 10px;
+}
+
+.carBlock {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.container-speed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-speed div {
+    margin: 5px;
+}
+
+.flag {
+    display: flex;
+    flex-direction: column;
+    background: url('../../../../../assets/polan.png');
+    justify-content: flex-end;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.car-select,
+.car-remove,
+.car-run,
+.car-stop {
+    border: 2px solid black;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.relative-car {
+    position: absolute;
+    left: 80px;
+}
+
+.disabled {
+    opacity: 0.5 !important;
+    pointer-events: none !important;
+    cursor: not-allowed !important;
+}
+.car-name {
+    color: black;
+}
+
+.cars-count,
+.page-count,
+.count-winner,
+.count-winner-page {
+    font-size: 25px;
+}
+
+.belarus-flag {
+    background: url('../../../../../assets/belarus.png');
+    width: 10px;
+    position: relative;
+    top: 0px;
+    left: -16px;
+    height: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
