@@ -1,0 +1,61 @@
+.popup-container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #0008;
+    z-index: 1;
+    overflow: auto;
+}
+
+.hidden {
+    display: none;
+}
+.popup-content div {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: -0px;
+    left: -40px;
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    position: relative;
+    top: 20%;
+    width: 500px;
+    height: 350px;
+    border: 2px solid #a1a3a6;
+    text-align: center;
+    z-index: 1;
+    margin: auto;
+    background-color: white;
+    padding: 5px 20px;
+}
+
+.popup-color-tag {
+    width: 50px;
+    height: 50px;
+}
+
+.popup-image {
+    background: url('../../../assets/download.png');
+    width: 64px;
+    height: 61px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.root {
+    overflow: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}

@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "paths": {},
+        "allowJs": true,
+        "target": "es2016",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "skipLibCheck": true
+    }
+}

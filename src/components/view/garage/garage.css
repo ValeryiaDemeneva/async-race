@@ -1,0 +1,17 @@
+.pages-section {
+    padding: 20px;
+    display: flex;
+    width: 150px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pages-section div {
+    border: 2px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.button-router {
+    
+}
