@@ -18,7 +18,7 @@ Running app
 
 Use node 14.x or higher.
 
-Clone this repo: $ git clone https://github.com/NikitaKakurin/async-race
+Clone this repo: $ git clone https://github.com/ValeryiaDemeneva/async-race
 
 Go to downloaded folder: $ cd async-race.
 
